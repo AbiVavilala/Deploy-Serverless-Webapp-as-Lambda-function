@@ -55,8 +55,16 @@ search for lambda in AWS management console then click on create function
 give your function a name and select Python runtime for this project.
 ![](https://github.com/AbiVavilala/Serverless-webapp/blob/main/diagrams/lambda1.PNG)
 
-for executuon role please add lambdafunctionIAMrole to this function. 
+for executuon role please add lambdafunctionIAMrole to this function. and click on create functin.
 ![](https://github.com/AbiVavilala/Serverless-webapp/blob/main/diagrams/lambda2.PNG)
 
+## create DynamoDB table
+we need a DynamoDb to store data from our function.
+
+Open AWS Managemnt console and search for DynamoDB. Click on create table.
+![](https://github.com/AbiVavilala/Serverless-webapp/blob/main/diagrams/dynamodb.PNG)
 
 
+give a table name. my table name is called serverlesstable. then write partition key. I will select partition key as email and type as string. leave all the settings as default.
+
+![](https://github.com/AbiVavilala/Serverless-webapp/blob/main/diagrams/dynamodb1.PNG)

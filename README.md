@@ -104,6 +104,10 @@ upload the zip file to lambda function and click on API gateway endpoint.
 ## Test the application
 
 lets test our Application. we will click on API Gateway and that will trigger our lambda function and open our Contact form. 
+![](https://github.com/AbiVavilala/Serverless-webapp/blob/main/diagrams/test.PNG)
+
+Now lets fill the form and see our data in DynamoDB table
+
 
 
 

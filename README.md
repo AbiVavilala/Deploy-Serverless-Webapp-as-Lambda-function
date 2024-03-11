@@ -50,3 +50,13 @@ give name to the role you are creating. I am calling this role as lambdafunction
 
 search for lambda in AWS management console then click on create function
 
+![](https://github.com/AbiVavilala/Serverless-webapp/blob/main/diagrams/lambda.PNG)
+
+give your function a name and select Python runtime for this project.
+![](https://github.com/AbiVavilala/Serverless-webapp/blob/main/diagrams/lambda1.PNG)
+
+for executuon role please add lambdafunctionIAMrole to this function. 
+![](https://github.com/AbiVavilala/Serverless-webapp/blob/main/diagrams/lambda2.PNG)
+
+
+

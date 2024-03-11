@@ -26,3 +26,21 @@ In this project, I created a serverless REST API that trigger a lambda function 
 We will create an IAM role for AWS lambda function to call AWS services on  your behalf.
 
 Open AWS Management Console and search for IAM then click on create role.
+![](https://github.com/AbiVavilala/Serverless-webapp/blob/main/diagrams/IAMRole.PNG)
+
+click on AWS services this will allow lambda function to perform actions in this account.
+
+In use case, select lambda function and click next
+
+![](https://github.com/AbiVavilala/Serverless-webapp/blob/main/diagrams/AWSRole2.PNG)
+
+In Add permissions, add AWS lambdBasicexecutionRole and DynamoDB full access role 
+
+![](https://github.com/AbiVavilala/Serverless-webapp/blob/main/diagrams/IAMRole2.PNG)
+
+and add DynamoDB permission too and click on  next
+![](https://github.com/AbiVavilala/Serverless-webapp/blob/main/diagrams/IAMroledynamodbfullaccess.PNG)
+
+give name to the role you are creating. I am calling this role as lambdafunctionIAMrole. and click next. this will craete the IAM role needed for this project.
+
+![](https://github.com/AbiVavilala/Serverless-webapp/blob/main/diagrams/IAMrole5.PNG)

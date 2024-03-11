@@ -107,6 +107,13 @@ lets test our Application. we will click on API Gateway and that will trigger ou
 ![](https://github.com/AbiVavilala/Serverless-webapp/blob/main/diagrams/test.PNG)
 
 Now lets fill the form and see our data in DynamoDB table
+![](https://github.com/AbiVavilala/Serverless-webapp/blob/main/diagrams/test1.PNG)
+
+![](https://github.com/AbiVavilala/Serverless-webapp/blob/main/diagrams/test2.PNG)
+
+## Verify data in DynamoDB table
+
+We can verify the data in DynamoDB table. open AWS management console and search for dynamodb table.
 
 
 

@@ -18,3 +18,11 @@ The developer only needs to provide the codebase in one of the languages support
 
 In this project, I created a serverless REST API that trigger a lambda function which generates a contact form and user can fill the form and save data to DynamoDB. 
 
+![](https://github.com/AbiVavilala/Serverless-webapp/blob/main/Architecture-diagram.png)
+
+
+## Create required IAM role
+
+We will create an IAM role for AWS lambda function to call AWS services on  your behalf.
+
+Open AWS Management Console and search for IAM then click on create role.

@@ -68,3 +68,28 @@ Open AWS Managemnt console and search for DynamoDB. Click on create table.
 give a table name. my table name is called serverlesstable. then write partition key. I will select partition key as email and type as string. leave all the settings as default.
 
 ![](https://github.com/AbiVavilala/Serverless-webapp/blob/main/diagrams/dynamodb1.PNG)
+
+
+## Create a Rest API
+
+we need to create an API gateway to trigger our Lambda function. click on Create API
+
+![](https://github.com/AbiVavilala/Serverless-webapp/blob/main/diagrams/API1.PNG)
+
+Select RestAPI and click on Build
+![](https://github.com/AbiVavilala/Serverless-webapp/blob/main/diagrams/restapi1.PNG)
+
+
+give API name as serverlessAPI and API endpoint as Regional and click on create API
+
+![](https://github.com/AbiVavilala/Serverless-webapp/blob/main/diagrams/restapi2.PNG)
+
+
+click on create method
+![](https://github.com/AbiVavilala/Serverless-webapp/blob/main/diagrams/restapi3.PNG)
+
+select method type as Any, lambda function as integration type and enable lambda proxy integration and select serverlessapp lambda function.
+![](https://github.com/AbiVavilala/Serverless-webapp/blob/main/diagrams/restapi4.PNG)
+
+
+

@@ -115,6 +115,20 @@ Now lets fill the form and see our data in DynamoDB table
 
 We can verify the data in DynamoDB table. open AWS management console and search for dynamodb table.
 
+![](https://github.com/AbiVavilala/Serverless-webapp/blob/main/diagrams/verifydata.PNG)
+
+
+click on Explore Items
+
+![](https://github.com/AbiVavilala/Serverless-webapp/blob/main/diagrams/verifydata1.PNG)
+
+you can see Stuart's contact information in the table.
+![](https://github.com/AbiVavilala/Serverless-webapp/blob/main/diagrams/verifydata2.PNG)
+
+
+## AWS Monitor and AWS X-ray
+
+
 
 
 

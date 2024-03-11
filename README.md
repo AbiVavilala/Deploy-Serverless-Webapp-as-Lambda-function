@@ -44,3 +44,9 @@ and add DynamoDB permission too and click on  next
 give name to the role you are creating. I am calling this role as lambdafunctionIAMrole. and click next. this will craete the IAM role needed for this project.
 
 ![](https://github.com/AbiVavilala/Serverless-webapp/blob/main/diagrams/IAMrole5.PNG)
+
+
+## Create Lambda funtion 
+
+search for lambda in AWS management console then click on create function
+

@@ -95,7 +95,15 @@ select method type as Any, lambda function as integration type and enable lambda
 
 Open your lambda function by clicking on serverlessapp
 
+![](https://github.com/AbiVavilala/Serverless-webapp/blob/main/diagrams/packagelambda.PNG)
+
 upload the zip file to lambda function and click on API gateway endpoint.
+
+![](https://github.com/AbiVavilala/Serverless-webapp/blob/main/diagrams/package%20our%20lambda%20function.PNG)
+
+## Test the application
+
+lets test our Application. we will click on API Gateway and that will trigger our lambda function and open our Contact form. 
 
 
 

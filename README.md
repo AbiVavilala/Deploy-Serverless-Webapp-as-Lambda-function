@@ -128,7 +128,9 @@ you can see Stuart's contact information in the table.
 
 ## AWS Monitor and AWS X-ray
 
+We can monitor our lambda function by checkng how many invocations, duration for our code to run, error and successrate of our application. 
 
+![](https://github.com/AbiVavilala/Serverless-webapp/blob/main/diagrams/AWSMonitor1.PNG)
 
 
 

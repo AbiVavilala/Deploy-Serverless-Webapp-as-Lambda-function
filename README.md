@@ -91,5 +91,7 @@ click on create method
 select method type as Any, lambda function as integration type and enable lambda proxy integration and select serverlessapp lambda function.
 ![](https://github.com/AbiVavilala/Serverless-webapp/blob/main/diagrams/restapi4.PNG)
 
+##  Package our lambda function
 
+Opne your lambda function by clicking on serverlessapp
 
